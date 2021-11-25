@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricon del Gordo</title>
+    <link rel="stylesheet" href="./Css/bootstrap.css">
+    <link rel="stylesheet" href="./Css/estilos.css">
+    <link rel="stylesheet" href="./Css/contacto.css">
+    <link rel="shortcut icon" href="./Imagenes/icono.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/wsp.css">
+
+</head>
+<body>
+    <header class="cabeza">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="Imagenes/iconomenu.png" alt="" height="30px" width="30px">
+        </label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="./conocenos.html">¡CONOCENOS!</a></li>
+                <li><a href="./menu.html">NUESTRA CARTA</a></li>
+                <li><a href="contactanos.html">CONTACTOS</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    
+    <div class="contenedor">
+
+        <div class="container">
+            <div class="row">
+                <div class="cajatitulo">
+                    <h2 id="titulo">CONTÁCTOS</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="cold-md-1">
+
+                </div>
+                <div class="formulario col-md-5 col-sm-12">
+                    <form action="">
+                        <h4>CONTÁCTANOS</h4>
+                        <h5>Si tienes alguna consulta, solo debes completar el siguiente formulario :</h5>
+                            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre y apellido" required>
+                            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su número de teléfono" required>
+                            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+                            <textarea class="controlsenviar" id="mensaje" name="text" rows="5" cols="40" placeholder="Escriba su mensaje" required></textarea>
+                            <input class="botons" type="submit" value="Enviar" onclick="confirmar()">
+                    </form>
+                </div>
+                <div class="imagen col-md-5 col-sm-12">
+                    <img src="Imagenes/Hamburguesa-peroo.jpg" alt="" height="450" width="460">
+                </div>
+                <div class="espacio col-md-1">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="mapa col-md-12 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.7752750529603!2d-77.06320808561883!3d-11.990045844111439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce53c69e3575%3A0x586e76dff7534a44!2sCibertec!5e0!3m2!1ses-419!2spe!4v1626980460526!5m2!1ses-419!2spe" width="1080" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5199999999" target="_blank">
+        <img src="Imagenes/whatsapp.png" alt="">
+        </a>
+        </div>
+   <!-- <div id="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+51999999999&text=hola"  target="_blank">
+          <img src="whatsapp.png" title="Escríbenos por Whastapp" alt="Escríbenos por Whastapp" width="70px" height="70px">
+        </a>
+     </div>
+    
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="script.js"></script>-->
+
+        <footer class="pie">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="espacio col-md-1" ></div>
+                    <!---->   
+                    <div class="imglogo col-md-4 col-sm-12">
+                        <img src="./Imagenes/Logo.png" alt="logo" width="300px" height="270px">
+                    </div>
+                          
+                    <div class="footer_red col-md-2 col-sm-12">
+                        <ul>
+                            <li><a href="#">Locales</a></li>
+                            <li><a href="#">Correo</a></li>
+                            <li><a href="#">Terminos y condiciones</a></li>
+                            <li><a href="#">Politica de Privacidad</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer_red col-md-2 col-sm-12">
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer_red cold-md-2">
+                        <ul>
+                            <li><a href="#">Croquis</a></li>
+                        </ul>
+                    </div>
+                    <div class="espacio col-md-1" ></div>
+                    <!---->   
+                </div>
+            </div>
+        </footer>
+    
+    <script src="./Js/codigo.js"></script>
+    <script src="Js/wsp.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+h4,h5{
+    color: white;
+}
+.formulario{
+    text-align: center;
+    border: 1px solid white;
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.344);
+    border-radius: 10px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid white;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+
+
+.botons {
+    width: 30%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.mapa{
+    margin: 20px;
+}
+
+.imagen{
+    text-align: center;
+    margin: 39px;
+    border: 1px solid white;
+    padding: 11px;
+    border-radius: 10px;
+}
+.mapa{
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.controlsenviar{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid white;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+
+.contenedor 
+{
+background-image: url('https://www.solofondos.com/wp-content/uploads/2015/11/Fondos-web.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+
+.imagen2{
+   margin: 0;
+   padding: 0;
+   border: 1px solid white;
+}
+
+.titulo{
+    width: 200px;
+    float: left;
+    padding: 10px 5px;
+    color: white;
+}
+#titulo{
+    padding: 10px 5px;
+    color: white;
+}
+.cajatitulo{
+    margin: 50px;
+}

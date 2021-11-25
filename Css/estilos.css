@@ -1,0 +1,463 @@
+body{
+    background: #000;
+}
+
+
+.logo{
+    height: 200px;
+    left: 38%;
+    display: block;
+    margin: auto;
+}
+
+.flch_izq{
+    position: absolute;
+    top: 210px;
+    z-index: 100;
+    left: 10px;
+}
+
+.flch_drcha{
+    position: absolute;
+    top: 210px;
+    left: 1250px;
+    z-index: 100;
+}
+
+.baner{
+    width: 100%;
+}
+
+
+/*Barra de menu nuevo*/
+#btn-menu{
+    display: none;
+}
+.cabeza{
+    border: 1px solid white;
+    background-color: black;
+}
+header label{
+    display: none;
+    width: 50px;
+    height: 40px;
+    padding: 8px;
+    border-right: 1px solid white;
+
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+/*.menu li{
+    flex-grow: 1;
+}*/
+.menu{
+    background-color:black;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li a:hover{
+    background:rgba(0,0,0,0.3) ;
+    color: rgb(253, 50, 50);
+}
+.menu li a{
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+}
+@media (max-width:768px){
+    header label{
+        display: block;
+        background-color: black;
+    }
+    .menu{
+        z-index: 2;
+        position: absolute;
+        background: rgb(46, 46, 46);
+        width: 70%;
+        margin-left: -80%;
+        transition: all 0.5s;
+        border: 1px solid white;
+        width: 170px;
+  
+        
+    }
+    .menu ul{
+        flex-direction: column;
+      
+    }
+    .menu li{
+        border-top:1px solid white;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+
+.cont{
+    background: rgb(208, 208, 208);
+    
+}
+
+/*-----------------------------------*/
+
+/* BARRA DE MENU*/
+/*.nav{
+    background: gray;
+    width: 100%;
+}
+.navegacion{
+    background: gray;
+}
+
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+
+.navegacion li{
+    display: inline-block;
+}
+
+.navegacion ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    margin: 10px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+*/
+
+
+/*------------------------------------*/
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.textoh2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .promo{
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: gray;
+
+
+}
+
+.container .promo:hover{
+    transform: translate(-15px);
+}
+
+.container .promo img{
+    width: 300px;
+    height: 250px;
+}
+
+.container .promo h4{
+    font-weight: 600;
+}
+
+.container .promo p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.container .promo a{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+
+.promo{
+    border: 1px solid rgb(124, 124, 124);
+    height: 500px;
+    width: 100%;
+   
+}
+
+.textopromo{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cuerpo{
+    display:inline-block;
+}
+
+/*----------------------------------------*/
+/* FOOTER*/
+.pie{
+    border: 1px solid white;
+    background-color: black;
+    box-sizing: content-box;
+    color: white;
+
+}
+.footer_red{
+    padding-top: 50px;
+}
+
+/*---------------*/
+
+main{
+    height: 80px;
+    display: block;
+}
+
+/*--------------------------------------*/
+/* NUESTRAS PROMOCIONES*/
+.contenido{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.referencias{
+    text-align: center;
+    box-sizing: content-box;
+    background-color: rgb(39, 39, 39);
+    width: 400px;
+    height: 180px;
+    margin: 20px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid rgb(94, 92, 92);
+
+}
+
+
+.texto{
+    width: 200px;
+    float: left;
+    padding: 10px 5px;
+    color: white;
+    overflow: hidden;
+    font-family: cursive;
+
+}
+.imagenes{
+    padding: auto;
+    margin: auto;
+}
+/*-------------------------------------*/
+
+/*.footer_bajo{
+    background: #fff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    
+}*/
+
+/*footer*/
+
+
+
+.pa2 {
+    float: left;
+    width: 60%;
+}
+
+.pa2 {
+    width: 40%;
+}
+
+.footer_bajo{
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+    box-sizing: content-box;
+}
+
+.footer_bajo li{
+    list-style: none;
+}
+
+.pie a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+.footer_logo{
+    padding: auto;
+    margin: auto;
+    box-sizing: content-box;
+    display: inline-block;
+
+}
+
+.footer_conocenos{
+    padding-top: 40px;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.footer_redes{
+    padding-left: 0;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+
+.footer_Direccion{
+    padding-left: 0;
+    padding-top: 10px;
+    margin-left: 20px;
+
+}
+
+.footer_logo img{
+    height: 200px;
+    
+}
+
+/*antes del footer*/
+.estatico{
+    height: 500px;
+    width: 100%;
+    background-image: url('https://cadenaser00.epimg.net/ser/imagenes/2019/02/21/radio_murcia/1550744022_268663_1550746902_noticia_normal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.estatico_texto{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    color:#fff
+}
+
+/*conocenos*/
+.contenedor_c{
+    background-image: url('https://www.solofondos.com/wp-content/uploads/2015/11/Fondos-web.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.conocenos_1{
+    width: 100%;
+    display: flex;
+    margin: 40px 0;
+}
+
+.h4_conocenos{
+    color: rgb(255, 255, 255);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin:40px 0px;
+    
+}
+.img_conocenos{
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.img_conocenos_1{
+    margin-left: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+
+}
+
+.caja_1{
+    color: rgb(255, 255, 255);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.conocenos_2{
+    display: flex;
+    margin: 40px 0;
+}
+
+.caja_2{
+    color: rgb(255, 255, 255);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+/*wsp opcion2
+#whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    display: none;
+    z-index: 100;
+}
+*/
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:30px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.cajatotal{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(165, 165, 165);
+}
+/* EFECTO */
+.efecto{
+    overflow: hidden;
+    transition: all 500ms ease;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+.imagenes{
+    transition: all 500ms ease;
+}
+.imagenes:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
